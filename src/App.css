@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url("./assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf")
+        format("truetype-variations");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inconsolata", sans-serif;
+    color: #fafafa;;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+
+    background-color: #f5f7fa;
+    background-image: 
+    url("images/pattern-circle.svg"),
+    url("images/pattern-lines.svg"),
+    url("images/pattern-squiggly-line-top.svg"),
+    url("images/pattern-squiggly-line-bottom-desktop.svg"),
+    url("images/background-desktop.png");
+    background-size: 
+    150px,
+    contain,
+    250px,
+    800px,
+    cover;
+    background-position: 
+    right 20px top 400px,
+    top right,
+    top 20px right,
+    bottom left,
+    center;
+    background-repeat: 
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+}
+
+.full-logo-icon {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: 4vh auto;
+    padding: 1.5rem;
+}
