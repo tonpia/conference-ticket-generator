@@ -16,11 +16,11 @@ body {
 
     background-color: #f5f7fa;
     background-image: 
-    url("images/pattern-circle.svg"),
-    url("images/pattern-lines.svg"),
-    url("images/pattern-squiggly-line-top.svg"),
-    url("images/pattern-squiggly-line-bottom-desktop.svg"),
-    url("images/background-desktop.png");
+    url("/images/pattern-circle.svg"),
+    url("/images/pattern-lines.svg"),
+    url("/images/pattern-squiggly-line-top.svg"),
+    url("/images/pattern-squiggly-line-bottom-desktop.svg"),
+    url("/images/background-desktop.png");
     background-size: 
     150px,
     contain,
