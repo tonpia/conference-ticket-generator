@@ -18,6 +18,24 @@ label {
     font-size: 0.95rem;
 }
 
+.error-text {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    color: #ff6b6b;
+    margin-top: 0.4rem;
+    opacity: 0.9;
+}
+
+.error-text img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.8;
+    filter: hue-rotate(-20deg) saturate(3);
+    
+}
+
 .upload-label {
     display: flex;
     flex-direction: column;

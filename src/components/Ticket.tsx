@@ -34,7 +34,7 @@ export default function Ticket({
             />
             <div className="ticket-event">
               <h2 className="event-title">Coding Conf</h2>
-              <p className="event-details">Jan 31, 2025 / BANGKOK, TH</p>
+              <p className="event-details">Nov 31, 2025 / BANGKOK, TH</p>
             </div>
           </div>
 
@@ -50,6 +50,7 @@ export default function Ticket({
             </div>
           </div>
         </div>
+        <div className="ticket-side-text">#1234</div>
       </article>
       <button onClick={onBack} className="edit-btn">
         Edit Info

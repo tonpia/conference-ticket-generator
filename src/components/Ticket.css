@@ -96,6 +96,21 @@
     color: #f68c68;
 }
 
+
+.ticket-side-text {
+    position: absolute;
+    right: 7%;
+    top: 70%;
+    transform: rotate(-90deg) translateY(50%);
+    transform-origin: left top;
+    font-size: 2rem;
+    font-weight: thin;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    z-index: 2;
+}
+
 .edit-btn {
     margin-top: 2rem;
     background-color: #f68c68;
